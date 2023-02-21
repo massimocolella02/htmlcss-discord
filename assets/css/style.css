@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style-type: none;
+}
+/* Utility */
+.color-lilla{
+    color: #7188D9;
+}
+/* Inizio Header */
+nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+nav{
+    display: flex;
+    width: 65%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+.button-white{
+    background-color: white;
+    border: 1px solid white;
+    padding: 7px;
+    border-radius: 20px;
+}
+header section{
+    width: 43%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+    padding-bottom: 80px;
+}
+header section h1{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+header section p{
+    color: white;
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+header section a{
+    border: 1px solid #23272A;
+    background-color: #23272A;
+    padding: 7px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+}
+/* Fine Header */
+
+/* Inizio Main */
+main section{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 50px 0;
+}
+.divgrande{
+    flex-basis: 70%;
+    margin-top: 50px;
+}
+.divpiccolo{
+    flex-basis: 30%;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+h3{
+    margin-bottom: 15px;
+}
+.container{
+    background-color: #F6F6F6;
+}
+aside{
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    padding: 70px 0;
+}
+aside button{
+    color: white;
+    background-color: #8EA1E1;
+    border: 1px solid #8EA1E1;
+    padding: 7px;
+    border-radius: 20px;
+}
+/* Fine del main */
+
+/* Inizio footer */
+footer{
+    background-color: #23272A;
+}
+footer section{
+    width: 65%;
+    margin: auto;
+    color: white;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+footer ul li{
+    margin: 5px 0;
+}
+footer section div .lista-piccola{
+    flex-basis: calc(100% / 5);
+}
+footer section div .lista-grande{
+    flex-basis: calc((100% / 5) + 5%);
+}
+footer aside{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+hr{
+    width: 65%;
+    margin: auto;
+    border-color: #3B4460;
+}
+select{
+    text-decoration: none;
+    background-color: #23272A;
+    border-color: #23272A;
+    color: white;
+}
